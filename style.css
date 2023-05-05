@@ -1,0 +1,48 @@
+.stopwatch-container {
+    text-align: center;
+    /* margin-top: 10%; */
+  }
+  
+  .stopwatch {
+    font-size: 4rem;
+    margin-top: 15%;
+  }
+  
+  button {
+    font-size: 1.5rem;
+    margin: 8px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    /* margin-top: 10%; */
+    /* background-color: #555; */
+    /* color: #fff; */
+  }
+  
+  button:hover {
+    background-color: #77777793;
+    cursor: pointer;
+  }
+.start-btn{
+  background-color: #0984e3;
+}
+.stop-btn{
+  background-color: #d63031;
+}
+.reset-btn{
+  background-color: #74b9ff;
+}
+body{
+  background-color: #4cd137;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Genos&family=Josefin+Sans:wght@700&family=Permanent+Marker&family=Smokum&display=swap');
+
+h1{
+  font-size: 550%;
+  /* font-family: 'Genos', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Permanent Marker', cursive;
+  font-family: 'Smokum', cursive; */
+  text-shadow: 1px 1px 2px #0984e3, 0 0 1em #74b9ff, 0 0 0.2em #d63031;
+}
